@@ -11,8 +11,8 @@ const Skills = () => {
     <Wrapper>
       <div className='flex py-16 items-center'>
       <div className='max-w-screen-md'>
-       <h3 className='text-4xl font-bold text-slate-700'> Let's Build Something Great Together</h3>
-<p className=' text-slate-600 mt-3'>Ready to start your next project or need an expert to help take your software to the next level? Let’s chat and make your ideas a reality.</p>
+       <h3 className='text-4xl font-bold text-slate-700'> Lets Build Something Great Together</h3>
+<p className=' text-slate-600 mt-3'>Ready to start your next project or need an expert to help take your software to the next level? Lets chat and make your ideas a reality.</p>
 <div className='py-8'>
         <Link href='/contact'><Button text={"Contact Me"} /></Link></div>
 </div>
