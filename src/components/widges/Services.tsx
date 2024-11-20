@@ -1,32 +1,31 @@
 import React from 'react'
 import Boxes from "@/components/shared/Boxes"
-import {  BiCartAlt } from "react-icons/bi";
-import { BiCodeAlt } from "react-icons/bi";
-import { RiComputerFill } from "react-icons/ri";
-import { CgWebsite } from "react-icons/cg";
-import { TbSettingsCode } from "react-icons/tb";
-import { TbDeviceImacSearch } from "react-icons/tb";
+import { ShoppingCart } from 'lucide-react';
+import { CodeXml } from 'lucide-react';
+import { MonitorSmartphone } from 'lucide-react';
+import { LayoutList } from 'lucide-react';
+import { MonitorCog } from 'lucide-react';
+import { SearchCode } from 'lucide-react';
 const Services = () => {
   return (
     <div className='bg-slate-800 text-white'>
-
-        <h2 className='text-5xl p-8 text-center font-semibold'>Services</h2>
+<h2 className='text-5xl p-8 text-center font-semibold'>Services</h2>
 <div className='grid grid-flow-row sm:grid-cols-3 mx-auto px-10'>
 
 <Boxes
-icon= { <BiCartAlt /> }
+icon= { <ShoppingCart size={44} strokeWidth={2} /> }
 header={"E-Commerce Solutions"} 
 />
 
 
 
  <Boxes 
-icon={<BiCodeAlt />} 
+icon={<CodeXml size={44} strokeWidth={2} />} 
 header={"Web Application Development"} 
  />
 
 <Boxes 
-icon={<RiComputerFill />} 
+icon={<MonitorSmartphone size={44} strokeWidth={2} />} 
 header={"UI/UX Design"} 
 />
 
@@ -34,19 +33,19 @@ header={"UI/UX Design"}
 
 
 <Boxes 
-icon={<CgWebsite />} 
+icon={<LayoutList size={44} />} 
 header={"Website Redesign & Modernization"} 
  />
 
 
 
 <Boxes 
-icon={<TbSettingsCode />} 
+icon={<MonitorCog size={44} />} 
 header={"API Integration & Custom Development"} 
  />
 
 <Boxes 
-icon={<TbDeviceImacSearch />} 
+icon={<SearchCode size={44} />} 
 header={"SEO & Website Optimization"} 
  />
 </div>
